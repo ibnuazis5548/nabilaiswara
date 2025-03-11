@@ -1,0 +1,80 @@
+@media (min-width: 300px) and (max-width: 640px) {
+    .ml1 {
+        margin-top: 45%;
+    }
+
+    .kontener2 {
+        padding: 10px;
+        text-align: center;
+        margin-top: 60%;
+    }
+}
+
+@media (max-width: 640px) {
+    .kontener2 {
+      margin-top: 50%; /* Sesuaikan margin untuk layar kecil */
+    }
+  
+    section .gambar {
+      width: 150px; /* Gambar lebih kecil di layar kecil */
+    }
+  
+    section .isiucapan {
+      font-size: 12px; /* Ukuran font lebih kecil untuk layar kecil */
+    }
+  
+    .judul_halaman {
+      font-size: 1.2rem; /* Ukuran judul lebih kecil */
+    }
+  
+    .kontener2 .tombol {
+      padding: 8px 20px; /* Tombol lebih kecil */
+      font-size: 14px;
+    }
+  }
+
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .kontener2 {
+      margin-top: 30%; /* Sesuaikan margin untuk tablet */
+    }
+  
+    section .gambar {
+      width: 180px; /* Gambar sedikit lebih besar */
+    }
+  
+    section .isiucapan {
+      font-size: 16px; /* Ukuran font lebih besar */
+    }
+  
+    .judul_halaman {
+      font-size: 1.8rem; /* Ukuran judul lebih besar */
+    }
+  
+    .kontener2 .tombol {
+      padding: 10px 25px; /* Tombol lebih besar */
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .kontener2 {
+      margin-top: 20%; /* Sesuaikan margin untuk desktop */
+    }
+  
+    section .gambar {
+      width: 250px; /* Gambar lebih besar */
+    }
+  
+    section .isiucapan {
+      font-size: 18px; /* Ukuran font lebih besar */
+    }
+  
+    .judul_halaman {
+      font-size: 2rem; /* Ukuran judul lebih besar */
+    }
+  
+    .kontener2 .tombol {
+      padding: 12px 30px; /* Tombol lebih besar */
+      font-size: 18px;
+    }
+  }
